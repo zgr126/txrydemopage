@@ -26,7 +26,7 @@ module.exports = {
             template: 'public/index.html',        
         },  
     },//配置多入口
-    publicPath: '/dizhen',
+    publicPath: './',
     integrity: true,
     configureWebpack: config => {
         config.entry.app = ["babel-polyfill", "./src/main.js"];

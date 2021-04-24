@@ -19,6 +19,9 @@ import top from './components/top'
 export default {
   name: 'App',
   mounted(){
+    this.axios.get('app/s').then(e=>{
+      console.log(e)
+    })
   },
   components: {
     // HelloWorld,
